@@ -22,10 +22,10 @@ static NSString *const kRSDNetworkReleaseHost = @"github.com";
 static NSString *const kRSDNetworkAdhocHost = @"github.com";
 static NSString *const kRSDNetworkDevelopHost = @"github.com";
 
-static const RSDServerType kRSDNetworkServerType = RSDServerTypeDevelop;
+static const RSDServerType kRSDNetworkServerType = RSDServerTypeRelease;
 
 
-// 网络请求超时时间,默认设置为20秒
+// 网络请求超时时间,默认设置为30秒
 static const NSTimeInterval kRSDTimeoutSeconds = 30.0f;
 static const BOOL kRSDShouldFetchCatchedData = YES;
 

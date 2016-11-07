@@ -36,6 +36,7 @@
     [_testAPI startLoadWithSuccess:^(RSDResponse *responseObject) {
         NSLog(@"isCached : %d", responseObject.isCached);
         NSLog(@"%@", responseObject.contentString);
+        NSLog(@"%@", responseObject.customObject);
     } failure:^(RSDResponse *responseObject) {
         NSLog(@"error:%@", responseObject.responseError);
     }];

@@ -85,7 +85,7 @@
     }
     __weak typeof(self) weakSelf = self;
 
-    void(^CathedBlock)(RSDResponse *responseObject) = [self shouldFetchCachedData] ? success : nil;
+    void(^cathedBlock)(RSDResponse *responseObject) = [self shouldFetchCachedData] ? success : nil;
     
     RSDRequest *request = [RSDRequest requestWithUrlString:self.requestURL headers:requestHeaders parameters:requestParameters methodType:methodType uploadFormData:formData success:^(RSDResponse *responseObject) {
         responseObject.customParseDelegate = weakSelf;
@@ -93,9 +93,12 @@
         success ? success(responseObject) : nil;
         
         [weakSelf.requestArray removeObject:responseObject.originReuqest];
-    } catched:CathedBlock failure:^(RSDResponse *responseObject) {
+    } catched:^(RSDResponse *responseObject) {
+        responseObject.customParseDelegate = weakSelf;
+        cathedBlock ? cathedBlock(responseObject) : nil;
+    } failure:^(RSDResponse *responseObject) {
         
-        failure(responseObject);
+        failure ? failure(responseObject) : nil;
         [weakSelf.requestArray removeObject:responseObject.originReuqest];
     }];
 

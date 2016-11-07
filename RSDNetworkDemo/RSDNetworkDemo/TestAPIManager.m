@@ -10,5 +10,9 @@
 
 @implementation TestAPIManager
 
+- (id)customObjectCustomParseWithResponse:(RSDResponse *)response {
+    return @"parse finish";
+}
+
 
 @end

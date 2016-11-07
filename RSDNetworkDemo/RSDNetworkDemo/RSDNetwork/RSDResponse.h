@@ -25,7 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak, nullable) id<RSDResponseCustomParseDelegate> customParseDelegate;
 
-@property (nonatomic, copy, readonly) NSNumber *requestID;
 
 /** 回调二进制Data */
 @property (nonatomic, strong, readonly) NSData *responseData;
