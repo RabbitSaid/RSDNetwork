@@ -68,9 +68,7 @@ typedef void(^RSDFailureBlock)(NSURLSessionDataTask *task, NSError *error);
     };
     switch (methodType) {
         case RSDRequestMethodTypeGET: {
-            NSLog(@"Get");
             request.dataTask = [request.sessionManager GET:URL parameters:parameters progress:nil success:successBlock failure:failureBlock];
-            NSLog(@"GET END");
             break;
         }
         case RSDRequestMethodTypePOST: {
