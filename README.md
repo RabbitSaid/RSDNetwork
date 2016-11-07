@@ -1,2 +1,2 @@
 # RSDNetwork
-Based on AFNetworking
+Based on AFNetworking.

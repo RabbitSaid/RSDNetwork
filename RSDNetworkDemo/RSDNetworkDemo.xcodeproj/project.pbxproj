@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730CC9F21DCF7C3400CD8073 /* RSDBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 730CC9E71DCF7C3400CD8073 /* RSDBaseAPIManager.m */; };
+		730CC9F31DCF7C3400CD8073 /* RSDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 730CC9E91DCF7C3400CD8073 /* RSDCache.m */; };
+		730CC9F41DCF7C3400CD8073 /* RSDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 730CC9EC1DCF7C3400CD8073 /* RSDRequest.m */; };
+		730CC9F51DCF7C3400CD8073 /* RSDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 730CC9EE1DCF7C3400CD8073 /* RSDResponse.m */; };
+		730CC9F61DCF7C3400CD8073 /* RSDServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 730CC9F01DCF7C3400CD8073 /* RSDServer.m */; };
+		733D8F3C1DC99BCA0005DDAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F3B1DC99BCA0005DDAF /* main.m */; };
+		733D8F3F1DC99BCA0005DDAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F3E1DC99BCA0005DDAF /* AppDelegate.m */; };
+		733D8F421DC99BCA0005DDAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F411DC99BCA0005DDAF /* ViewController.m */; };
+		733D8F451DC99BCA0005DDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733D8F431DC99BCA0005DDAF /* Main.storyboard */; };
+		733D8F471DC99BCA0005DDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733D8F461DC99BCA0005DDAF /* Assets.xcassets */; };
+		733D8F4A1DC99BCA0005DDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733D8F481DC99BCA0005DDAF /* LaunchScreen.storyboard */; };
+		733D8F691DC9AC970005DDAF /* TestAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F681DC9AC970005DDAF /* TestAPIManager.m */; };
+		9F009A21B25C5432B9F72C5F /* libPods-RSDNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C0721B00FA7A6F010F87A /* libPods-RSDNetworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EB5A49E515025CCB5222498 /* Pods-RSDNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSDNetworkDemo/Pods-RSDNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5E9C0721B00FA7A6F010F87A /* libPods-RSDNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSDNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D43A049EFA4B2C40CFFED9 /* Pods-RSDNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSDNetworkDemo/Pods-RSDNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		730CC9E61DCF7C3400CD8073 /* RSDBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDBaseAPIManager.h; sourceTree = "<group>"; };
+		730CC9E71DCF7C3400CD8073 /* RSDBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDBaseAPIManager.m; sourceTree = "<group>"; };
+		730CC9E81DCF7C3400CD8073 /* RSDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDCache.h; sourceTree = "<group>"; };
+		730CC9E91DCF7C3400CD8073 /* RSDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDCache.m; sourceTree = "<group>"; };
+		730CC9EA1DCF7C3400CD8073 /* RSDNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDNetworkConfiguration.h; sourceTree = "<group>"; };
+		730CC9EB1DCF7C3400CD8073 /* RSDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDRequest.h; sourceTree = "<group>"; };
+		730CC9EC1DCF7C3400CD8073 /* RSDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDRequest.m; sourceTree = "<group>"; };
+		730CC9ED1DCF7C3400CD8073 /* RSDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDResponse.h; sourceTree = "<group>"; };
+		730CC9EE1DCF7C3400CD8073 /* RSDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDResponse.m; sourceTree = "<group>"; };
+		730CC9EF1DCF7C3400CD8073 /* RSDServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDServer.h; sourceTree = "<group>"; };
+		730CC9F01DCF7C3400CD8073 /* RSDServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDServer.m; sourceTree = "<group>"; };
+		733D8F371DC99BCA0005DDAF /* RSDNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		733D8F3B1DC99BCA0005DDAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		733D8F3D1DC99BCA0005DDAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		733D8F3E1DC99BCA0005DDAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		733D8F401DC99BCA0005DDAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		733D8F411DC99BCA0005DDAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		733D8F441DC99BCA0005DDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		733D8F461DC99BCA0005DDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		733D8F491DC99BCA0005DDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		733D8F4B1DC99BCA0005DDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		733D8F671DC9AC970005DDAF /* TestAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAPIManager.h; sourceTree = "<group>"; };
+		733D8F681DC9AC970005DDAF /* TestAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAPIManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733D8F341DC99BCA0005DDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F009A21B25C5432B9F72C5F /* libPods-RSDNetworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730CC9E51DCF7C3400CD8073 /* RSDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				730CC9E61DCF7C3400CD8073 /* RSDBaseAPIManager.h */,
+				730CC9E71DCF7C3400CD8073 /* RSDBaseAPIManager.m */,
+				730CC9E81DCF7C3400CD8073 /* RSDCache.h */,
+				730CC9E91DCF7C3400CD8073 /* RSDCache.m */,
+				730CC9EA1DCF7C3400CD8073 /* RSDNetworkConfiguration.h */,
+				730CC9EB1DCF7C3400CD8073 /* RSDRequest.h */,
+				730CC9EC1DCF7C3400CD8073 /* RSDRequest.m */,
+				730CC9ED1DCF7C3400CD8073 /* RSDResponse.h */,
+				730CC9EE1DCF7C3400CD8073 /* RSDResponse.m */,
+				730CC9EF1DCF7C3400CD8073 /* RSDServer.h */,
+				730CC9F01DCF7C3400CD8073 /* RSDServer.m */,
+			);
+			path = RSDNetwork;
+			sourceTree = "<group>";
+		};
+		733D8F2E1DC99BCA0005DDAF = {
+			isa = PBXGroup;
+			children = (
+				733D8F391DC99BCA0005DDAF /* RSDNetworkDemo */,
+				733D8F381DC99BCA0005DDAF /* Products */,
+				A7C5BEC53D2F134271DC4AFE /* Pods */,
+				BBC4A9B48227FDBDE24A7007 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		733D8F381DC99BCA0005DDAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733D8F371DC99BCA0005DDAF /* RSDNetworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		733D8F391DC99BCA0005DDAF /* RSDNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				730CC9E51DCF7C3400CD8073 /* RSDNetwork */,
+				733D8F3D1DC99BCA0005DDAF /* AppDelegate.h */,
+				733D8F3E1DC99BCA0005DDAF /* AppDelegate.m */,
+				733D8F401DC99BCA0005DDAF /* ViewController.h */,
+				733D8F411DC99BCA0005DDAF /* ViewController.m */,
+				733D8F671DC9AC970005DDAF /* TestAPIManager.h */,
+				733D8F681DC9AC970005DDAF /* TestAPIManager.m */,
+				733D8F431DC99BCA0005DDAF /* Main.storyboard */,
+				733D8F461DC99BCA0005DDAF /* Assets.xcassets */,
+				733D8F481DC99BCA0005DDAF /* LaunchScreen.storyboard */,
+				733D8F4B1DC99BCA0005DDAF /* Info.plist */,
+				733D8F3A1DC99BCA0005DDAF /* Supporting Files */,
+			);
+			path = RSDNetworkDemo;
+			sourceTree = "<group>";
+		};
+		733D8F3A1DC99BCA0005DDAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733D8F3B1DC99BCA0005DDAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7C5BEC53D2F134271DC4AFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5A49E515025CCB5222498 /* Pods-RSDNetworkDemo.debug.xcconfig */,
+				61D43A049EFA4B2C40CFFED9 /* Pods-RSDNetworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBC4A9B48227FDBDE24A7007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C0721B00FA7A6F010F87A /* libPods-RSDNetworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		733D8F361DC99BCA0005DDAF /* RSDNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733D8F4E1DC99BCA0005DDAF /* Build configuration list for PBXNativeTarget "RSDNetworkDemo" */;
+			buildPhases = (
+				22199D9741903C7F248FF067 /* [CP] Check Pods Manifest.lock */,
+				733D8F331DC99BCA0005DDAF /* Sources */,
+				733D8F341DC99BCA0005DDAF /* Frameworks */,
+				733D8F351DC99BCA0005DDAF /* Resources */,
+				C7ED94AD61DFF23F7FFC3A1E /* [CP] Embed Pods Frameworks */,
+				F574F4B431EC14F8841EA4AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDNetworkDemo;
+			productName = RSDNetworkDemo;
+			productReference = 733D8F371DC99BCA0005DDAF /* RSDNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		733D8F2F1DC99BCA0005DDAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Eiwodetianna;
+				TargetAttributes = {
+					733D8F361DC99BCA0005DDAF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 37K6YV78V7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 733D8F321DC99BCA0005DDAF /* Build configuration list for PBXProject "RSDNetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 733D8F2E1DC99BCA0005DDAF;
+			productRefGroup = 733D8F381DC99BCA0005DDAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				733D8F361DC99BCA0005DDAF /* RSDNetworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		733D8F351DC99BCA0005DDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733D8F4A1DC99BCA0005DDAF /* LaunchScreen.storyboard in Resources */,
+				733D8F471DC99BCA0005DDAF /* Assets.xcassets in Resources */,
+				733D8F451DC99BCA0005DDAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22199D9741903C7F248FF067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7ED94AD61DFF23F7FFC3A1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDNetworkDemo/Pods-RSDNetworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F574F4B431EC14F8841EA4AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDNetworkDemo/Pods-RSDNetworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		733D8F331DC99BCA0005DDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730CC9F51DCF7C3400CD8073 /* RSDResponse.m in Sources */,
+				730CC9F41DCF7C3400CD8073 /* RSDRequest.m in Sources */,
+				733D8F421DC99BCA0005DDAF /* ViewController.m in Sources */,
+				730CC9F21DCF7C3400CD8073 /* RSDBaseAPIManager.m in Sources */,
+				730CC9F31DCF7C3400CD8073 /* RSDCache.m in Sources */,
+				730CC9F61DCF7C3400CD8073 /* RSDServer.m in Sources */,
+				733D8F3F1DC99BCA0005DDAF /* AppDelegate.m in Sources */,
+				733D8F691DC9AC970005DDAF /* TestAPIManager.m in Sources */,
+				733D8F3C1DC99BCA0005DDAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		733D8F431DC99BCA0005DDAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733D8F441DC99BCA0005DDAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		733D8F481DC99BCA0005DDAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733D8F491DC99BCA0005DDAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		733D8F4C1DC99BCA0005DDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		733D8F4D1DC99BCA0005DDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		733D8F4F1DC99BCA0005DDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB5A49E515025CCB5222498 /* Pods-RSDNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 37K6YV78V7;
+				INFOPLIST_FILE = RSDNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eiwodetianna.RSDNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		733D8F501DC99BCA0005DDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D43A049EFA4B2C40CFFED9 /* Pods-RSDNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 37K6YV78V7;
+				INFOPLIST_FILE = RSDNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eiwodetianna.RSDNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733D8F321DC99BCA0005DDAF /* Build configuration list for PBXProject "RSDNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733D8F4C1DC99BCA0005DDAF /* Debug */,
+				733D8F4D1DC99BCA0005DDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733D8F4E1DC99BCA0005DDAF /* Build configuration list for PBXNativeTarget "RSDNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733D8F4F1DC99BCA0005DDAF /* Debug */,
+				733D8F501DC99BCA0005DDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 733D8F2F1DC99BCA0005DDAF /* Project object */;
+}
