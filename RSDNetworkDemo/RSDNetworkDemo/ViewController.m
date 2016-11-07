@@ -34,7 +34,7 @@
 }
 - (IBAction)buttonClicked:(id)sender {
     [_testAPI startLoadWithSuccess:^(RSDResponse *responseObject) {
-        NSLog(@"isCatched : %d", responseObject.isCached);
+        NSLog(@"isCached : %d", responseObject.isCached);
         NSLog(@"%@", responseObject.contentString);
     } failure:^(RSDResponse *responseObject) {
         NSLog(@"error:%@", responseObject.responseError);
