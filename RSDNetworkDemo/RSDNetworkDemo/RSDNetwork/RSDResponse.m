@@ -24,7 +24,7 @@
 @property (nonatomic, strong, readwrite) RSDRequest *originReuqest;
 
 /** 是否是缓存数据 */
-@property (nonatomic, assign, readwrite) BOOL isCache;
+@property (nonatomic, assign, readwrite) BOOL isCatched;
 
 @end
 
@@ -52,7 +52,7 @@
 
 - (instancetype)initWithCatchedData:(NSData *)catchedData originRequest:(RSDRequest *)originRequest {
     self = [self initWithData:catchedData error:nil originRequest:originRequest];
-    _isCache = YES;
+    _isCatched = YES;
     return self;
 }
 

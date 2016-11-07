@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy, readonly) NSString *responseMessage;
 
 /** 是否是缓存数据 */
-@property (nonatomic, assign, readonly) BOOL isCache;
+@property (nonatomic, assign, readonly) BOOL isCatched;
 
 + (instancetype)responseWithData:(nullable NSData *)data originRequest:(RSDRequest *)originRequest;
 
