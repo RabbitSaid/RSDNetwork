@@ -29,7 +29,6 @@
     
     self.testAPI = [TestAPIManager new];
 
-    
 
     
 }
@@ -40,6 +39,7 @@
     } failure:^(RSDResponse *responseObject) {
         NSLog(@"error:%@", responseObject.responseError);
     }];
+
 }
 
 - (void)didReceiveMemoryWarning {

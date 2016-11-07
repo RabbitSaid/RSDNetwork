@@ -18,8 +18,8 @@ typedef NS_ENUM(NSUInteger, RSDServerType) {
 
 static NSString *const kRSDNetworkScheme = @"https";
 
-static NSString *const kRSDNetworkReleaseHost = @"60.190.57.232:8080";
-static NSString *const kRSDNetworkAdhocHost = @"192.168.100.42:8080";
+static NSString *const kRSDNetworkReleaseHost = @"github.com";
+static NSString *const kRSDNetworkAdhocHost = @"github.com";
 static NSString *const kRSDNetworkDevelopHost = @"github.com";
 
 static const RSDServerType kRSDNetworkServerType = RSDServerTypeDevelop;
