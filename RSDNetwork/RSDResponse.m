@@ -16,6 +16,8 @@
 @property (nonatomic, strong, readwrite, nullable) id jsonObject;
 
 @property (nonatomic, copy, readwrite, nullable) NSString *contentString;
+
+
 /** 回调二进制Data */
 @property (nonatomic, strong, readwrite) NSData *responseData;
 
@@ -59,6 +61,7 @@
 - (instancetype)initWithData:(NSData *)data error:(NSError *)error originRequest:(RSDRequest *)originRequest {
     self = [super init];
     if (self) {
+        self.responseError = error;
         self.responseData = data;
         self.originReuqest = originRequest;
         

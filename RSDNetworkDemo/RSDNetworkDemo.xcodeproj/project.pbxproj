@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7303E9D91DF55E4400906AA4 /* RSDBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303E9CF1DF55E4400906AA4 /* RSDBaseAPIManager.m */; };
-		7303E9DA1DF55E4400906AA4 /* RSDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303E9D11DF55E4400906AA4 /* RSDCache.m */; };
-		7303E9DB1DF55E4400906AA4 /* RSDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303E9D41DF55E4400906AA4 /* RSDRequest.m */; };
-		7303E9DC1DF55E4400906AA4 /* RSDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303E9D61DF55E4400906AA4 /* RSDResponse.m */; };
-		7303E9DD1DF55E4400906AA4 /* RSDServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303E9D81DF55E4400906AA4 /* RSDServer.m */; };
 		733D8F3C1DC99BCA0005DDAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F3B1DC99BCA0005DDAF /* main.m */; };
 		733D8F3F1DC99BCA0005DDAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F3E1DC99BCA0005DDAF /* AppDelegate.m */; };
 		733D8F421DC99BCA0005DDAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F411DC99BCA0005DDAF /* ViewController.m */; };
@@ -19,6 +14,11 @@
 		733D8F471DC99BCA0005DDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733D8F461DC99BCA0005DDAF /* Assets.xcassets */; };
 		733D8F4A1DC99BCA0005DDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733D8F481DC99BCA0005DDAF /* LaunchScreen.storyboard */; };
 		733D8F691DC9AC970005DDAF /* TestAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D8F681DC9AC970005DDAF /* TestAPIManager.m */; };
+		73F867E81DF5704B00D2AE6D /* RSDBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F867DE1DF5704B00D2AE6D /* RSDBaseAPIManager.m */; };
+		73F867E91DF5704B00D2AE6D /* RSDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F867E01DF5704B00D2AE6D /* RSDCache.m */; };
+		73F867EA1DF5704B00D2AE6D /* RSDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F867E31DF5704B00D2AE6D /* RSDRequest.m */; };
+		73F867EB1DF5704B00D2AE6D /* RSDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F867E51DF5704B00D2AE6D /* RSDResponse.m */; };
+		73F867EC1DF5704B00D2AE6D /* RSDServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F867E71DF5704B00D2AE6D /* RSDServer.m */; };
 		9F009A21B25C5432B9F72C5F /* libPods-RSDNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C0721B00FA7A6F010F87A /* libPods-RSDNetworkDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -26,18 +26,6 @@
 		0EB5A49E515025CCB5222498 /* Pods-RSDNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSDNetworkDemo/Pods-RSDNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5E9C0721B00FA7A6F010F87A /* libPods-RSDNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSDNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D43A049EFA4B2C40CFFED9 /* Pods-RSDNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSDNetworkDemo/Pods-RSDNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
-		7303E9CD1DF55E4400906AA4 /* RSDAPIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDAPIManagerProtocol.h; sourceTree = "<group>"; };
-		7303E9CE1DF55E4400906AA4 /* RSDBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDBaseAPIManager.h; sourceTree = "<group>"; };
-		7303E9CF1DF55E4400906AA4 /* RSDBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDBaseAPIManager.m; sourceTree = "<group>"; };
-		7303E9D01DF55E4400906AA4 /* RSDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDCache.h; sourceTree = "<group>"; };
-		7303E9D11DF55E4400906AA4 /* RSDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDCache.m; sourceTree = "<group>"; };
-		7303E9D21DF55E4400906AA4 /* RSDNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDNetworkConfiguration.h; sourceTree = "<group>"; };
-		7303E9D31DF55E4400906AA4 /* RSDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDRequest.h; sourceTree = "<group>"; };
-		7303E9D41DF55E4400906AA4 /* RSDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDRequest.m; sourceTree = "<group>"; };
-		7303E9D51DF55E4400906AA4 /* RSDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDResponse.h; sourceTree = "<group>"; };
-		7303E9D61DF55E4400906AA4 /* RSDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDResponse.m; sourceTree = "<group>"; };
-		7303E9D71DF55E4400906AA4 /* RSDServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDServer.h; sourceTree = "<group>"; };
-		7303E9D81DF55E4400906AA4 /* RSDServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDServer.m; sourceTree = "<group>"; };
 		733D8F371DC99BCA0005DDAF /* RSDNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733D8F3B1DC99BCA0005DDAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		733D8F3D1DC99BCA0005DDAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +38,18 @@
 		733D8F4B1DC99BCA0005DDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		733D8F671DC9AC970005DDAF /* TestAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAPIManager.h; sourceTree = "<group>"; };
 		733D8F681DC9AC970005DDAF /* TestAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAPIManager.m; sourceTree = "<group>"; };
+		73F867DC1DF5704B00D2AE6D /* RSDAPIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDAPIManagerProtocol.h; sourceTree = "<group>"; };
+		73F867DD1DF5704B00D2AE6D /* RSDBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDBaseAPIManager.h; sourceTree = "<group>"; };
+		73F867DE1DF5704B00D2AE6D /* RSDBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDBaseAPIManager.m; sourceTree = "<group>"; };
+		73F867DF1DF5704B00D2AE6D /* RSDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDCache.h; sourceTree = "<group>"; };
+		73F867E01DF5704B00D2AE6D /* RSDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDCache.m; sourceTree = "<group>"; };
+		73F867E11DF5704B00D2AE6D /* RSDNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDNetworkConfiguration.h; sourceTree = "<group>"; };
+		73F867E21DF5704B00D2AE6D /* RSDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDRequest.h; sourceTree = "<group>"; };
+		73F867E31DF5704B00D2AE6D /* RSDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDRequest.m; sourceTree = "<group>"; };
+		73F867E41DF5704B00D2AE6D /* RSDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDResponse.h; sourceTree = "<group>"; };
+		73F867E51DF5704B00D2AE6D /* RSDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDResponse.m; sourceTree = "<group>"; };
+		73F867E61DF5704B00D2AE6D /* RSDServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDServer.h; sourceTree = "<group>"; };
+		73F867E71DF5704B00D2AE6D /* RSDServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,25 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7303E9CC1DF55E4400906AA4 /* RSDNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				7303E9CD1DF55E4400906AA4 /* RSDAPIManagerProtocol.h */,
-				7303E9CE1DF55E4400906AA4 /* RSDBaseAPIManager.h */,
-				7303E9CF1DF55E4400906AA4 /* RSDBaseAPIManager.m */,
-				7303E9D01DF55E4400906AA4 /* RSDCache.h */,
-				7303E9D11DF55E4400906AA4 /* RSDCache.m */,
-				7303E9D21DF55E4400906AA4 /* RSDNetworkConfiguration.h */,
-				7303E9D31DF55E4400906AA4 /* RSDRequest.h */,
-				7303E9D41DF55E4400906AA4 /* RSDRequest.m */,
-				7303E9D51DF55E4400906AA4 /* RSDResponse.h */,
-				7303E9D61DF55E4400906AA4 /* RSDResponse.m */,
-				7303E9D71DF55E4400906AA4 /* RSDServer.h */,
-				7303E9D81DF55E4400906AA4 /* RSDServer.m */,
-			);
-			path = RSDNetwork;
-			sourceTree = "<group>";
-		};
 		733D8F2E1DC99BCA0005DDAF = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +85,7 @@
 		733D8F391DC99BCA0005DDAF /* RSDNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7303E9CC1DF55E4400906AA4 /* RSDNetwork */,
+				73F867DB1DF5704B00D2AE6D /* RSDNetwork */,
 				733D8F3D1DC99BCA0005DDAF /* AppDelegate.h */,
 				733D8F3E1DC99BCA0005DDAF /* AppDelegate.m */,
 				733D8F401DC99BCA0005DDAF /* ViewController.h */,
@@ -126,6 +107,25 @@
 				733D8F3B1DC99BCA0005DDAF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73F867DB1DF5704B00D2AE6D /* RSDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				73F867DC1DF5704B00D2AE6D /* RSDAPIManagerProtocol.h */,
+				73F867DD1DF5704B00D2AE6D /* RSDBaseAPIManager.h */,
+				73F867DE1DF5704B00D2AE6D /* RSDBaseAPIManager.m */,
+				73F867DF1DF5704B00D2AE6D /* RSDCache.h */,
+				73F867E01DF5704B00D2AE6D /* RSDCache.m */,
+				73F867E11DF5704B00D2AE6D /* RSDNetworkConfiguration.h */,
+				73F867E21DF5704B00D2AE6D /* RSDRequest.h */,
+				73F867E31DF5704B00D2AE6D /* RSDRequest.m */,
+				73F867E41DF5704B00D2AE6D /* RSDResponse.h */,
+				73F867E51DF5704B00D2AE6D /* RSDResponse.m */,
+				73F867E61DF5704B00D2AE6D /* RSDServer.h */,
+				73F867E71DF5704B00D2AE6D /* RSDServer.m */,
+			);
+			path = RSDNetwork;
 			sourceTree = "<group>";
 		};
 		A7C5BEC53D2F134271DC4AFE /* Pods */ = {
@@ -268,12 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7303E9DC1DF55E4400906AA4 /* RSDResponse.m in Sources */,
-				7303E9DB1DF55E4400906AA4 /* RSDRequest.m in Sources */,
+				73F867EB1DF5704B00D2AE6D /* RSDResponse.m in Sources */,
+				73F867EA1DF5704B00D2AE6D /* RSDRequest.m in Sources */,
 				733D8F421DC99BCA0005DDAF /* ViewController.m in Sources */,
-				7303E9D91DF55E4400906AA4 /* RSDBaseAPIManager.m in Sources */,
-				7303E9DA1DF55E4400906AA4 /* RSDCache.m in Sources */,
-				7303E9DD1DF55E4400906AA4 /* RSDServer.m in Sources */,
+				73F867E81DF5704B00D2AE6D /* RSDBaseAPIManager.m in Sources */,
+				73F867E91DF5704B00D2AE6D /* RSDCache.m in Sources */,
+				73F867EC1DF5704B00D2AE6D /* RSDServer.m in Sources */,
 				733D8F3F1DC99BCA0005DDAF /* AppDelegate.m in Sources */,
 				733D8F691DC9AC970005DDAF /* TestAPIManager.m in Sources */,
 				733D8F3C1DC99BCA0005DDAF /* main.m in Sources */,

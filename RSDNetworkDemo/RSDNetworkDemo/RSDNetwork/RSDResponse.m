@@ -79,7 +79,10 @@
         
         NSError *error = nil;
         self.jsonObject = [NSJSONSerialization JSONObjectWithData:_responseData options:NSJSONReadingMutableContainers error:&error];
-        NSLog(@"RSDResponse json object error: %@", error);
+        if (error) {
+            
+            NSLog(@"RSDResponse json object error: %@", error);
+        }
     }
     return _jsonObject;
 }
