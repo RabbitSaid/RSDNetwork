@@ -15,6 +15,5 @@ RSDRequestDelegate,
 RSDResponseCustomParseDelegate
 >
 
-@property (nonatomic, strong, readonly) NSArray *requstList;
 
 @end
